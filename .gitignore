@@ -1,0 +1,66 @@
+# macOS metadata
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+
+# Secrets and local credentials (never commit real values)
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
+id_ed25519*
+credentials*.json
+client_secret*.json
+service-account*.json
+*service_account*.json
+*service-account*.json
+token*.json
+oauth*.json
+.secrets/
+secrets/
+private/
+.openai/
+.local-history/
+
+# Dependencies and generated caches
+node_modules/
+.next/
+.vercel/
+.netlify/
+.cache/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Logs, editor state and local databases
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.sqlite
+*.sqlite3
+*.db
+.vscode/
+.idea/
+
+# Reproducible delivery archives; extracted source versions remain tracked
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
