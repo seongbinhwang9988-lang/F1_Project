@@ -38,7 +38,17 @@ npm run preview
 
 `dist/`와 `.deploy-source/`는 생성 결과 및 로컬 호스팅 연결용이므로 Git에서 제외됩니다. 수정할 파일은 원래 폴더의 `index.html`, `content.js`, `assets/`입니다.
 
-## 현재 배포
+## GitHub Pages 공개 배포
+
+- 주소: https://seongbinhwang9988-lang.github.io/F1_Project/
+- 공개 범위: 누구나 로그인 없이 접속
+- 소스: 공개 GitHub 저장소 `seongbinhwang9988-lang/F1_Project`
+- 자동 배포: `.github/workflows/pages.yml`이 `main` 변경 시 실행
+- 배포 대상: `F1-The-11 6/dist`의 내용물
+
+원본 파일을 수정하고 `main`에 push하면 자동으로 갱신됩니다. Actions의 배포 작업이 성공하면 변경사항이 반영됩니다.
+
+## 기존 Sites 배포
 
 - 주소: https://f1-the-eleven-seongbin.loundstudio-5336.chatgpt.site
 - 상태: 배포 완료
@@ -46,4 +56,4 @@ npm run preview
 - 호스팅: Sites
 - 배포 정보: `deployment.json`
 
-GitHub 저장소는 비공개로 유지됩니다. 방문자에게 링크를 공개하려면 사이트의 공개 범위를 별도로 변경해야 합니다.
+기존 Sites는 비공개로 유지하며, 위의 GitHub Pages 주소에서 공개 사이트를 제공합니다. `deployment.json`은 기존 Sites 배포 기록입니다.

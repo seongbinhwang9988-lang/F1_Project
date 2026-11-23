@@ -1,6 +1,10 @@
 # F1_Project
 
-F1 온라인 전시 사이트의 소스, 제작 자료, 수정본을 기록하는 비공개 작업 저장소입니다.
+F1 온라인 전시 사이트의 소스, 제작 자료, 수정본을 기록하는 공개 작업 저장소입니다.
+
+공개 웹사이트: https://seongbinhwang9988-lang.github.io/F1_Project/
+
+`main`에 변경사항을 업로드하면 GitHub Actions가 최종 폴더를 빌드하고 GitHub Pages에 자동 배포합니다.
 
 ## 현재 작업본
 
@@ -54,6 +58,6 @@ npm run preview
 
 배포할 파일은 생성된 `dist/`에 모입니다. 자세한 설정은 `F1-The-11 6/DEPLOYMENT.md`를 참고하세요. 호스팅 연결용 로컬 폴더와 빌드 결과는 Git에 업로드하지 않습니다.
 
-현재 비공개 배포 주소: https://f1-the-eleven-seongbin.loundstudio-5336.chatgpt.site
+기존 Sites 비공개 배포 주소: https://f1-the-eleven-seongbin.loundstudio-5336.chatgpt.site
 
 소유자 계정으로 접속할 수 있으며, 배포 정보는 `F1-The-11 6/deployment.json`에 기록되어 있습니다.
