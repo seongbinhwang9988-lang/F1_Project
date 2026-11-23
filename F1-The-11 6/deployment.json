@@ -1,0 +1,10 @@
+{
+  "project_id": "appgprj_6b03c918995c8191bc782e7c21ffcdd1",
+  "url": "https://f1-the-eleven-seongbin.loundstudio-5336.chatgpt.site",
+  "visibility": "private",
+  "build_command": "npm run build",
+  "output_directory": "dist",
+  "site_source_commit": "01d4b28430e607ea2a993477b098475c4d7f3dd4",
+  "version_id": "appgprj_6b03c918995c8191bc782e7c21ffcdd1~appgver_fc3893099b8c8191bdd974bf191b3e36",
+  "published_at": "2026-11-23T11:00:04.051753+00:00"
+}

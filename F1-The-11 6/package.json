@@ -1,0 +1,10 @@
+{
+  "name": "f1-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "F1: The 11 online exhibition",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "preview": "python3 -m http.server 4173 --directory dist"
+  }
+}

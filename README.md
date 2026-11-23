@@ -41,3 +41,19 @@ git push origin main
 ```
 
 업로드 후 GitHub의 `main` 브랜치에서 `test.py`를 열어 최신 내용과 커밋이 표시되는지 확인합니다. 로컬 실행 성공과 GitHub 업로드 성공은 각각 확인해야 합니다.
+
+## 웹사이트 배포
+
+최종 폴더에 배포용 빌드 명령을 추가했습니다.
+
+```sh
+cd "F1-The-11 6"
+npm run build
+npm run preview
+```
+
+배포할 파일은 생성된 `dist/`에 모입니다. 자세한 설정은 `F1-The-11 6/DEPLOYMENT.md`를 참고하세요. 호스팅 연결용 로컬 폴더와 빌드 결과는 Git에 업로드하지 않습니다.
+
+현재 비공개 배포 주소: https://f1-the-eleven-seongbin.loundstudio-5336.chatgpt.site
+
+소유자 계정으로 접속할 수 있으며, 배포 정보는 `F1-The-11 6/deployment.json`에 기록되어 있습니다.

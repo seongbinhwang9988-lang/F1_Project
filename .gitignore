@@ -64,3 +64,7 @@ htmlcov/
 *.tar
 *.tar.gz
 *.tgz
+
+# Local deployment checkout and generated hosting output
+.deploy-source/
+dist/
