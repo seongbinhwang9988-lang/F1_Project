@@ -34,3 +34,16 @@ git push origin main
 ```
 
 `.gitignore`는 인증정보, 환경변수, 개인용 폴더, 캐시, 임시 파일 및 중복 배포 ZIP을 제외합니다. 실제 비밀값은 소스에 직접 적지 마세요. ZIP은 제외되지만 압축을 푼 소스 폴더는 기록됩니다.
+
+## test.py로 저장·업로드 확인하기
+
+`test.py`는 현재 웹사이트의 필수 파일이 있는지 확인하는 예제입니다.
+
+```sh
+python3 test.py
+git add test.py
+git commit -m "Update test.py"
+git push origin main
+```
+
+업로드 후 GitHub의 `main` 브랜치에서 `test.py`를 열어 최신 내용과 커밋이 표시되는지 확인합니다. 로컬 실행 성공과 GitHub 업로드 성공은 각각 확인해야 합니다.
