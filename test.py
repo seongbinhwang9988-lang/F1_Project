@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 def main() -> int:
-    project = Path(__file__).resolve().parent / "f1-the-11-final"
+    project = Path(__file__).resolve().parent / "F1-The-11 6"
     required = (
         "index.html",
         "content.js",
